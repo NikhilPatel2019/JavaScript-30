@@ -11,6 +11,8 @@ ctx.lineCap = 'round';
 ctx.lineWidth = 100;
 // ctx.globalCompositeOperation = 'new content';
  
+
+//Positions
 let isDrawing = false;
 let lastX = 0;
 let lastY = 0;
