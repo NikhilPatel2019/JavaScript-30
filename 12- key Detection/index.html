@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Detection</title>
+    <style>
+        body{
+            background: #ffe3d8;
+        }
+        h1{
+            text-align: center;
+            font-size: 100px;
+            color: #5aa469;
+        }
+        h1 code{
+            color: #03506f;
+        }
+    </style>
+</head>
+<body>
+    <h1><code>Console</code> me dekh bhaiii!</h1>
+
+    <script> 
+         const pressed = [];
+         const secretCode = 'pakadliya';
+
+        window.addEventListener('keyup', (e) => {
+            console.log(e.key, e.keyCode);
+            pressed.push(e.key);
+            pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+            if (pressed.join('').includes(secretCode)) {
+                console.log('You Got The Code');
+            }
+        });
+    </script>
+</body>
+</html>
