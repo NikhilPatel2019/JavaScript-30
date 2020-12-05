@@ -1,0 +1,4 @@
+Run index file on local server 
+
+- So that yo don't have to enable the mike every time
+- Also due to security reasons
