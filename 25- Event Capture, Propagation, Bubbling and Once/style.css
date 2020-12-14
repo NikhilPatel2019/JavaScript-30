@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+    background-color: #bce6eb;
+  }
+  
+  *, *:before, *:after { 
+    box-sizing: inherit; 
+  }
+
+  div {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .one {
+    background: #fecd1a;
+  }
+
+  .two {
+    background: #fd3a69;
+  }
+
+  .three {
+    background:#120078;
+  }
