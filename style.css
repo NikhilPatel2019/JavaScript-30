@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+  background-color: #14274e;
+}
+
+/* Heading */
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.e0{
+ color:  #fecd1a;
+ font-size: 65px;
+}
+
+
+.projects{
+  /* margin: 20px 30px; */
+  margin: auto;
+  width: 60%;
+  border: 3px solid #fecd1a;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        /* background-color: #39311d;
+        color: #fecd1a */
+}
+
+/* Yellow Strip */
+.p1{
+    margin: 20px;
+    margin-bottom: 50px;
+    background-color: #fecd1a;
+    padding: 20px;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    font-size: 30px;
+    color: #39311d;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* White Strip */
+.p2{
+  margin: 20px;
+  margin-bottom: 50px;
+  background-color: #f1f6f9;
+  padding: 20px;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  font-size: 30px;
+  color: #0a043c;
+  font-weight: bold;
+  font-size: 40px;
+}
